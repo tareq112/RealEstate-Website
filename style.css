@@ -163,5 +163,30 @@
 }
 .feedbackSlider{
     height: 200px;
-    background: url(/img/layout\ 02\ \(01\).jpg) no-repeat center center / cover;
+    background: url(/img/feedbackSlider00.jpg) no-repeat center center / cover;
+}
+
+/* -----why choose us---- */
+.homePageDescription{
+    display: flex;
+}
+.whoWeare{
+    display: flex;
+    border:2px solid grey ;
+}
+.ourimg{
+    border:2px solid goldenrod ;
+    width: 50%;
+    height: 50%;
+    background: url(/img/About\ us.jpg) no-repeat center center / cover;
+}
+.whyChooseUs{
+    display: flex;
+    border:2px solid grey ;
+}
+.chooseImg{
+    border:2px solid goldenrod ;
+    width: 50%;
+    height: 50%;
+    background: url(/img/whychooseus.jpg) no-repeat center center / cover ;
 }
