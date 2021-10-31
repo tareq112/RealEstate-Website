@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:  "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    
 }
 .conatainer{
-    border: 5px solid rgb(212, 32, 188);
+    
     background: #ffff;
 }
 /*---nav flex container----*/
@@ -58,7 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 5vh;
     
 }.seacrh button{
     padding:20px;
@@ -73,27 +75,28 @@
 
 .textContent{
     display: flex;
-    border:1px solid red ;
+   
    
 }
 .column{
-    width: 33.33%;
+    width: 30%;
+    height: 180px;
     padding:15px;
-    margin:20px;
+    margin:25px;
     justify-content: center;
     align-items: center;
     
 }
 .c1{
-    background:rgb(230, 236, 230) ;
+    background: #fff ;
     box-shadow: 5px 5px 5px 5px rgba(145, 140, 221, 0.767);
 }
 .c2{
-    background:rgb(230, 236, 230) ;
+    background:#fff;
     box-shadow: 5px 5px 5px 5px rgba(145, 140, 221, 0.767);
 }
 .c3{
-    background:rgb(230, 236, 230) ;
+    background:#fff ;
     box-shadow: 5px 5px 5px 5px rgba(145, 140, 221, 0.767);
 }
 .colheading{
@@ -110,9 +113,7 @@
 .image1{
     width: 25%;
     margin: 20px 10px;
-    
-    
-    
+  
 }
 
 .houseImg1{
@@ -177,8 +178,15 @@
     background: url(/img/content/06.jpg) no-repeat center center / cover;
     
 }
-.houseImg8 :hover{
-    opacity: .5;
+.houseImg1:hover,
+.houseImg2:hover,
+.houseImg3:hover,
+.houseImg4:hover,
+.houseImg5:hover,
+.houseImg6:hover,
+.houseImg7:hover,
+.houseImg8:hover {
+    opacity: .7;
 
 }
 
@@ -196,6 +204,15 @@
     justify-content: center;
     align-items: center;
     padding: 15px;
+}
+.testimonial1 p,
+.testimonial2 p,
+.testimonial3 p {
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #eaf5e9;
+    font-size: 16px;
 }
 .test1{
     border-radius: 50%;
@@ -256,6 +273,12 @@
     align-items: center;
     width: 33.33%;
    
+}
+.usefulLink li {
+    list-style-type: none;
+}
+.usefulLink a{
+    text-decoration: underline;
 }
 .latestNews{
     display: flex;
