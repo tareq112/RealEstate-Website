@@ -5,6 +5,7 @@
 }
 .conatainer{
     border: 5px solid rgb(212, 32, 188);
+    background: #ffff;
 }
 /*---nav flex container----*/
 .navbar{
@@ -52,13 +53,20 @@
     background: #ffffff url(/img/layout_1_004.jpg) no-repeat center center / cover;
    
 }
+/* ----search---- */
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    
+}.seacrh button{
+    padding:20px;
+}
 /*-----content div-----*/
 
 .realcontent{
     margin: 35px;
-    border:5px solid blue ;
-   
-    
 }
 
 /* ---text content--- */
@@ -70,22 +78,23 @@
 }
 .column{
     width: 33.33%;
-    height: 170px;
+    padding:15px;
+    margin:20px;
+    justify-content: center;
+    align-items: center;
+    
 }
 .c1{
-    border: 5px solid rgb(156, 14, 14);
     background:rgb(230, 236, 230) ;
-    box-shadow: 5px 5px 5px rgba(82, 72, 230, 0.767);
+    box-shadow: 5px 5px 5px 5px rgba(145, 140, 221, 0.767);
 }
 .c2{
-    border: 5px solid rgb(156, 14, 14);
     background:rgb(230, 236, 230) ;
-    box-shadow: 5px 5px 5px rgba(19, 5, 5, 0.1);
+    box-shadow: 5px 5px 5px 5px rgba(145, 140, 221, 0.767);
 }
 .c3{
-    border: 5px solid rgb(156, 14, 14);
     background:rgb(230, 236, 230) ;
-    box-shadow: 5px 5px 5px rgba(19, 5, 5, 0.1);
+    box-shadow: 5px 5px 5px 5px rgba(145, 140, 221, 0.767);
 }
 .colheading{
     text-align: center;
@@ -96,74 +105,101 @@
 /* ----image content 1 ---- */
 .imageContent1{
     display: flex;
-    border:5px solid goldenrod ;
+    
 }
 .image1{
-    width: 33.333%;
+    width: 25%;
+    margin: 20px 10px;
+    
+    
     
 }
 
 .houseImg1{
     height: 250px;
-    margin: 1px solid wheat;
+    box-shadow: 5px 5px 5px rgb(115, 131, 219);
+    border-radius: 3px;
     background: url(/img/content/4.jpg) no-repeat center center / cover;
 }
 .houseImg2{
     height: 250px;
-    border: 1px solid wheat;
+    box-shadow: 5px 5px 5px rgb(115, 131, 219);
+    border-radius: 3px;
     background: url(/img/content/3.jpg) no-repeat center center / cover;
 }
 .houseImg3{
+    
     height: 250px;
-    border: 1px solid wheat;
+    box-shadow: 5px 5px 5px rgb(115, 131, 219);
+    border-radius: 3px;
     background: url(/img/content/2.jpg) no-repeat center center / cover;
 }
 .houseImg4{
     height: 250px;
-    border: 1px solid wheat;
+    box-shadow: 5px 5px 5px rgb(115, 131, 219);
+    border-radius: 3px;
     background: url(/img/content/1.jpg) no-repeat center center / cover;
 }
 
 /* ----image content 2 ---- */
 .imageContent2{
     display: flex;
-    border:5px solid rgb(32, 218, 94) ;
+    
 }
 .image2{
-   width: 33.333%;
-   
+  width: 25%;
+  margin:20px  10px;
+  
+  
 }
-
 .houseImg5{
     height: 250px;
-    border: 1px solid wheat;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(115, 131, 219);
     background: url(/img/content/2.jpg) no-repeat center center / cover;
 }
 .houseImg6{
     height: 250px;
-    border: 1px solid wheat;
+    box-shadow: 5px 5px 5px rgb(115, 131, 219);
+    border-radius: 3px;
     background: url(/img/content/1.jpg) no-repeat center center / cover;
 }
 .houseImg7{
     height: 250px;
-    border: 1px solid wheat;
+    box-shadow: 5px 5px 5px rgb(115, 131, 219);
+    border-radius: 3px;
     background: url(/img/content/4.jpg) no-repeat center center / cover;
 }
 .houseImg8{
     height: 250px;
-    border: 1px solid wheat;
+    box-shadow: 5px 5px 5px rgb(115, 131, 219);
+    border-radius: 3px;
     background: url(/img/content/06.jpg) no-repeat center center / cover;
     
 }
+.houseImg8 :hover{
+    opacity: .5;
 
-/* -----feed back div---- */
-.feedback{
-    border:1px solid red ;
-   
 }
-.feedbackSlider{
-    height: 200px;
-    background: url(/img/feedbackSlider00.jpg) no-repeat center center / cover;
+
+
+/* -----testimonial---- */
+.testimonial{
+    display: flex;
+    
+}
+.testimonial1,
+.testimonial2,
+.testimonial3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.test1{
+    border-radius: 50%;
+    
 }
 
 /* -----why choose us---- */
@@ -172,21 +208,60 @@
 }
 .whoWeare{
     display: flex;
-    border:2px solid grey ;
+    
 }
 .ourimg{
-    border:2px solid goldenrod ;
-    width: 50%;
-    height: 50%;
+ 
+    width: 100%;
+    height: 100%;
     background: url(/img/About\ us.jpg) no-repeat center center / cover;
 }
 .whyChooseUs{
     display: flex;
-    border:2px solid grey ;
+   
 }
 .chooseImg{
-    border:2px solid goldenrod ;
-    width: 50%;
-    height: 50%;
+    
+    width: 100%;
+    height: 100%;
     background: url(/img/whychooseus.jpg) no-repeat center center / cover ;
+}
+/* ----Footer---- */
+.footer{
+    display: flex;
+   
+}
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    
+    
+}
+.newsLetter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+   
+    justify-content: flex-end;
+}
+.usefulLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+   
+}
+.latestNews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+   
 }
