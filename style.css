@@ -97,8 +97,8 @@ a {
 .flex-form input[type=button]{
     padding: 15px;
     width: 100px;
-    background: rgb(219, 86, 72);
-    color:#fff ;
+    background: rgb(153, 151, 233);
+    color:rgb(22, 6, 6) ;
     font-weight: bold;
    
 }
